@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 300px;
+}
+
+h1,
+p {
+    margin: 0 0 10px 0;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+}
+
+.third-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-section-display {
+    display: flex;
+    width: 600px;
+    margin: 100px;
+    
+}
+
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+}
+
