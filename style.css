@@ -1,10 +1,22 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 img {
     width: 300px;
+    flex-grow: 1;
+}
+
+button {
+    background-color: #3883F6;
+    border-radius: 5px;
+    border: none;
+    border: none;
+    color: white;
+    padding: 5px 25px;
+    cursor: pointer;
 }
 
 h1,
@@ -12,9 +24,18 @@ p {
     margin: 0 0 10px 0;
 }
 
+a {
+    color: grey;
+    margin: 10px;
+    cursor: pointer;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-top: 10px;
 }
 
 .third-section {
@@ -25,9 +46,10 @@ p {
 
 .top-section-display {
     display: flex;
-    width: 600px;
-    margin: 100px;
     
+    margin: 100px;
+    justify-content: center;
+    flex-grow: 1;
 }
 
 .top-section {
@@ -38,3 +60,7 @@ p {
     color: white;
 }
 
+.tsd-left {
+    width: 300px;
+    flex-grow: 1;
+}
