@@ -115,3 +115,34 @@ a {
     color: white;
     padding: 20px;
 }
+
+.bottom-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action-card {
+    background-color: #3882F6;
+    padding: 20px 100px;
+    border-radius: 10px;
+    margin: 60px 120px;;
+    flex-grow: 1;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+}
+
+.call-to-action-card div p:first-child {
+    font-weight: bold;
+    font-size: 18px
+}
+
+.call-to-action-card div p:nth-child(2) {
+    font-size: 12px;
+}
+
+.sign-up {
+    border: 1px solid white;
+    padding: 0px 20px;
+}
